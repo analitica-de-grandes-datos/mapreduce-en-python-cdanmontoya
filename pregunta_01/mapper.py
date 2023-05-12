@@ -7,5 +7,4 @@ with open('credit.csv', 'r') as file:
     content = csv.reader(file)
 
     for row in content:
-        mapped_value = row[2].rstrip()
-        print(f'{mapped_value}')
+        print(f'{row[2].rstrip()}')
