@@ -14,5 +14,6 @@ for line in sys.stdin:
 # Reduce
 temp = sorted(temp.items(), key=lambda x: x[1])
 
+# Format
 for item in temp:
     print(f'{item[0]},{item[1]}')
