@@ -7,8 +7,6 @@ import sys
 temp = {}
 
 for line in sys.stdin:
-    # print(line)
-
     # Combine
     purpose, amount = line.split(',')
 
