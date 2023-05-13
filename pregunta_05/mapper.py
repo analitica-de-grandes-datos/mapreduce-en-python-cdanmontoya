@@ -4,4 +4,4 @@
 import sys
 
 for line in sys.stdin:
-    print(line)
+    print(line.split('   ')[1].split('-')[1])
