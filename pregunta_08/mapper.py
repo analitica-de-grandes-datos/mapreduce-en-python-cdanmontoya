@@ -4,4 +4,4 @@
 import sys
 
 for line in sys.stdin:
-    print(line)
+    print(f"{line.split('   ')[0]},{line.split('   ')[2]}")
