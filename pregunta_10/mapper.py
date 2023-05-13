@@ -4,4 +4,8 @@
 import sys
 
 for line in sys.stdin:
-    print(line)
+    number, chars = line.split('\t')
+
+    for char in chars:
+        if char != ',':
+            print(f'{char},{number}')
